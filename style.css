@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: #191b16;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-principal{
+    width: 80vw;
+    max-width: 600px;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 100px;
+    border-radius: 20px;
+    border: 2px solid rgb(6, 50, 131);
+}
+
+#cronometro {
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    user-select: none;
+    font-family: 'Noto Sans Thai';
+}
+
+.boton {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#boton-iniciar-pausa.iniciar, 
+#boton-iniciar-pausa.iniciar i{
+    background-color: #08e088;
+}
+
+#boton-iniciar-pausa.pausar,
+#boton-iniciar-pausa.pausar i {
+    background-color: #ffdc00;
+}
+
+#boton-reiniciar {
+    background-color: red;
+}
